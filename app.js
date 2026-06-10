@@ -1,3 +1,5 @@
+// Menyimpan kumpulan data surprise dalam bentuk array of object.
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 const surprises = [
   { type: "text", value: "You're doing better than you think. 🌟" },
   { type: "text", value: "Why did the scarecrow win an award? He was outstanding in his field. 🌾" },
@@ -12,7 +14,8 @@ const surprises = [
   { type: "color", value: "Mood shift activated! 🎨" },
   { type: "confetti", value: "Party mode! 🎉" },
 ];
-
+// Mengambil elemen HTML
+// https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
 const btn = document.getElementById("surpriseBtn");
 const result = document.getElementById("result");
 const hint = document.getElementById("hint");
