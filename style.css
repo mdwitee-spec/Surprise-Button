@@ -62,6 +62,8 @@ body {
   filter: brightness(1.08);
 }
 
+// memusatkan elemen dengan tinggi variabel secara vertikal.
+// https://stackoverflow.com/questions/28908616/using-css-transform-scale-on-element-positioned-using-translatey
 .surprise-btn:active {
   transform: translateY(1px) scale(0.98);
 }
@@ -69,7 +71,8 @@ body {
 .surprise-btn.pop {
   animation: pop 0.35s ease;
 }
-
+// efek detak jantung/kejut (pop effect)
+// https://stackoverflow.com/questions/20379778/css-keyframes-scale-and-translate
 @keyframes pop {
   0% { transform: scale(1); }
   40% { transform: scale(1.08); }
@@ -92,6 +95,8 @@ body {
   transform: translateY(0);
 }
 
+// jendela pop-up untuk setiap gambar di galeri foto saya
+// https://stackoverflow.com/questions/79314563/how-to-make-popup-work-correctly-on-photo-gallery
 .confetti {
   position: fixed;
   top: -12px;
