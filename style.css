@@ -1,3 +1,5 @@
+// menargetkan variabel CSS global.
+// https://stackoverflow.com/questions/69142205/can-this-code-section-before-after-boxsizing-border-box-work
 *,
 *::before,
 *::after {
